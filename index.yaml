@@ -3,6 +3,17 @@ entries:
   flowset-control:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-06-02T11:52:25.682994724Z"
+    description: Helm chart for Flowset
+    digest: 36d1601ac255904f7f29089b6ba54286fbe2a4debd70d0482314b5dd2ffecf7b
+    icon: https://avatars.githubusercontent.com/u/185957921
+    name: flowset-control
+    type: application
+    urls:
+    - https://github.com/DLR-terrabyte/flowset-helm/releases/download/flowset-control-0.1.1/flowset-control-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-05-08T10:17:26.738789991Z"
     description: Helm chart for Flowset
     digest: 2f1930368edf6b91366e5463302de3e24995e32d0aa6f87e97ce4b6ac3a97e9e
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://github.com/DLR-terrabyte/flowset-helm/releases/download/flowset-control-0.1.0/flowset-control-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-08T10:17:26.738795761Z"
+generated: "2026-06-02T11:52:25.683009136Z"
