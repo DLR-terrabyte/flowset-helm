@@ -1,12 +1,26 @@
-flowset:
-  control:
-    db:
-      username: root
-      password: root
-      name: flowset-control
-    server: 
-      port: 8081
-    ui:
-      default:
-        username: ""
-        password: ""
+global:
+  namespace: default
+
+postgres_database:
+  enabled: true
+  name: postgres-database
+  username: root
+  password: root
+  database: postgres-database
+
+flowset_control:
+  name: flowset-control
+  port: 8081
+  default_username: ""
+  default_password: ""
+
+  hosts: 
+    - flowset-control.your-domain.com
+
+  ingress:
+    annotations:
+      - annotate: something
+    tls:
+      secretName: your-cert
+    rules:
+      host: flowset-control.your-domain.com
