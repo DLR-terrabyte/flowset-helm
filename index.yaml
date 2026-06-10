@@ -1,5 +1,17 @@
 apiVersion: v1
 entries:
+  flowset:
+  - apiVersion: v2
+    appVersion: 2026.0.0
+    created: "2026-06-10T13:50:12.36262537Z"
+    description: Flowset Web apps
+    digest: 520796c7d6ca31ff4eb801b0cfec72899b5a349e381bda242479bebdae041279
+    icon: https://avatars.githubusercontent.com/u/185957921
+    name: flowset
+    type: application
+    urls:
+    - https://github.com/DLR-terrabyte/flowset-helm/releases/download/flowset-0.1.8/flowset-0.1.8.tgz
+    version: 0.1.8
   flowset-control:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -89,4 +101,4 @@ entries:
     urls:
     - https://github.com/DLR-terrabyte/flowset-helm/releases/download/flowset-control-0.1.0/flowset-control-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-08T15:44:35.718335185Z"
+generated: "2026-06-10T13:50:12.362643621Z"
